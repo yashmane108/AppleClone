@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 27%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#part2 {
+    width: 27%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#part3 {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    width: 46%;
+
+}
+.ind-prt3 span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-image: url(./img/fcp_ipad_hero__e663fdl2htea_large.png);
+    margin-top: -28%;
+}
+.abt-prt3 span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+}
+
+#part3 span:nth-child(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+}
+
+#part3 span:nth-child(2) {
+    clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+}
+
+#part3 span:nth-child(3) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 75%, 0 75%);
+}
+
+#part3 span:nth-child(4) {
+    clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+}
+#div1 {
+    height: 65%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.div1-ind span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+    background-image: url(./img/ipad_hero__d0tgmaq6shm6_large.jpg);
+    opacity: 0;
+    width: 100%;
+    height: 98.5%;
+    top: 0.1cm;
+}
+.div1-abt span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+    background-image: url(./img/macstudio.jpg)    
+}
+#div1 span:nth-child(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+}
+
+#div1 span:nth-child(2) {
+    clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+}
+
+#div1 span:nth-child(3) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 75%, 0 75%);
+}
+
+#div1 span:nth-child(4) {
+    clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#div2 {
+    position: relative;
+    overflow: hidden;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+#div2 img{
+    width: 99%;
+    height: 140%;
+}
+
+/*
+#div2 h1 {
+    color: #000;
+    font-size: 15px;
+}
+
+#div2 h6 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#div2 h5 {
+    color: #000;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+*/
+
+#div3 {
+    height: 45%;
+    
+    width: 103.5%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+/* iPad Pro */
+#div3 h4{
+    color: #ffffff;
+    margin-left: 0.5vw;
+    font-size: 24vh;
+    margin-top: 13%;
+    font-size: 30px;
+    margin-left: 37%;
+    
+}
+
+/* Lastest News */
+#div3 h1{
+    color: #1d1d1b;;
+    background-color: #cdc6be;
+    margin-left: 3.9cm;
+    margin-top: 0.2cm;
+    font-size: 3vh;
+    line-height: 3vh;
+    display: inline-block;
+    font-family: CondMedium;
+}
+
+/* prize */
+#div3 h2{
+    color: #ffffff;    
+    font-size: 2.5vh;
+    margin-top: 4%;
+    margin-left: 10cm;
+}
+
+/* Super M2 */
+#div3 h3 {
+    background: linear-gradient(180deg,#be22ff 20%,#ff279c 50%,#ff981f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 23px;
+    top: 10%;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* img */
+#div3 img{
+    width: 17%;
+    height: 17%;
+    margin-left: 4.7cm;
+    margin-bottom: 70%;
+}
+
+.div32 {
+    height: 65%;
+    position: relative;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 181, 21) !important;
+}
+
+.div32 h2 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    position: absolute;
+    top: 55% !important;
+    white-space: nowrap;
+    left: 12% !important;
+}
+
+.div32 h3 {
+    font-size: 36px;
+    position: absolute;
+    top: 79%;
+    left: 20%;
+}
+
+#div4 {
+    height: 45%;
+    width: 105%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}

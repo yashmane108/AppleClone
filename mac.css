@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 27%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#part2 {
+    width: 27%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#part3 {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    width: 46%;
+    background-color: rgb(0, 0, 0);
+}
+.ind-prt3 span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+    background-image: url(./img/macimg.jpg);
+    margin-left: 2cm;
+}
+.abt-prt3 span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+}
+
+#part3 span:nth-child(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+}
+
+#part3 span:nth-child(2) {
+    clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+}
+
+#part3 span:nth-child(3) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 75%, 0 75%);
+}
+
+#part3 span:nth-child(4) {
+    clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+}
+#div1 {
+    height: 65%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.div1-ind span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+    background-image: url(./img/bundle.jpg);
+    opacity: 0;
+    width: 100%;
+    height: 91%;
+    top: 0.2cm;
+    justify-content: center;
+}
+.div1-abt span {
+    inset: 0;
+    position: absolute;
+    transition: 0.5s;
+    background-size: cover;
+    background-image: url(./img/macstudio.jpg)    
+}
+#div1 span:nth-child(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+}
+
+#div1 span:nth-child(2) {
+    clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+}
+
+#div1 span:nth-child(3) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 75%, 0 75%);
+}
+
+#div1 span:nth-child(4) {
+    clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#div2 {
+    position: relative;
+    height: 45%;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 50px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+#div2 h6 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+#div2 h4 {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#div2 h3 {
+    color: #000;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+#div3 {
+    height: 65%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    position: relative;
+    background-color: rgb(30, 30, 30);
+}
+
+/* Mac Studio */
+#div3 h4{
+    color: #ffffff;
+    margin-left: 0.5vw;
+    font-size: 24vh;
+    margin-top: 13%;
+    font-size: 30px;
+    margin-left: 30%;
+    font-family: semibold;
+}
+
+/* Lastest News */
+#div3 h1{
+    color: #1d1d1b;;
+    background-color: #cdc6be;
+    margin-left: 3.7cm;
+    margin-top: 0.2cm;
+    font-size: 3vh;
+    line-height: 3vh;
+    display: inline-block;
+    font-family: CondMedium;
+
+}
+
+/* prize */
+#div3 h2{
+    color: #ffffff;    
+    font-size: 2.5vh;
+    margin-top: 4%;
+    text-align: center;
+}
+
+/* Super */
+#div3 h3 {
+    font-size: 20px;
+    top: 10%;
+    text-align: center;
+}
+
+.div32 {
+    height: 65%;
+    position: relative;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 181, 21) !important;
+}
+
+.div32 h2 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    position: absolute;
+    top: 55% !important;
+    white-space: nowrap;
+    left: 12% !important;
+}
+
+.div32 h3 {
+    font-size: 36px;
+    position: absolute;
+    top: 79%;
+    left: 20%;
+}
+
+#div4 {
+    height: 35%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
